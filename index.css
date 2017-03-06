@@ -1,0 +1,107 @@
+@charset "UTF-8";
+input[type=submit]{
+font-family: FontAwesome /*FontAwesomeをフォント指定*/;
+}
+body{
+	margin:50px;
+}
+h1{
+	margin-left: 30px;
+	padding: 20px;
+	background-color: #EEFFFF;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+}
+h3 {
+	padding: .5em .50em;
+	background-color: #f6f6f6;
+	border-left: 6px solid #ccc;
+	margin-bottom: 20px;
+}
+h6{
+	width:105px;
+	padding:8px;
+	background-color: #036;
+	color:#fff;
+}
+input.submit_button_0{
+	background-color: #eee;
+	border-style: 1px solid #000;
+	color:#aaa;
+	font-size: 18px;
+}
+input.submit_button_1{
+	background-color: #eef;
+	border-style: 1px solid #000;
+	color:#006633;
+	font-size: 18px;
+}
+.clock{
+	border: 2px solid #9999FF;
+	padding: 10px 20px;
+	width:280px;
+	margin-bottom: 20px;
+}
+.all{
+	margin-left: 15px;
+}
+.week{
+	float: left;
+	padding:15px;
+}
+.ichiran{
+	padding:15px;
+}
+.add{
+	margin-left: 327.23px;
+	padding: 15px;
+}
+.message{
+	list-style-type: none;
+	color: red;
+	padding-top:3px;
+	padding-left: 0px;
+}
+.all-table {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+}
+.all-table th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	background: #036;
+}
+.all-table td {
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+}
+.add-table td {
+	padding: 15px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+}
+.add-table .backwhite{
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+.high{
+	color: red;
+	font-size:40px;
+}
+.asta{
+	color:red;
+}
+.green{
+	color:#006600;
+}
+.tri-white{
+	color: #fff;
+}
+.tri-white:hover{
+	color: #bbb;
+}
