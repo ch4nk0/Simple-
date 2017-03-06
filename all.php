@@ -18,7 +18,7 @@
     $time = new DateTime("now");
     $now = $time->format('Y/m/d');
     $week=array("","","","","","","");
-    $pdo=new PDO('mysql:host=DB_HOST;dbname=DB_NAME;charset=utf8','DB_USERNAME','DB_PASSWORD');
+    $pdo=new PDO('mysql:host=DB_HOST;dbname=todo;charset=utf8','DB_USERNAME','DB_PASSWORD');
     foreach($pdo -> query('select * from todo')as $row){//週表を出すための準備
       for($i=0;$i<7;$i++){//今日から一週間分を考える
         if(date("Y-m-d", strtotime($i."day")) == substr($row['deadline'], 0, -9)){//文字列で一致するか比較する
