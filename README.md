@@ -3,6 +3,7 @@
 
 ##概要
 PHPの練習用に書きました。自分用に作ったTODOリストです。タスクの〆切やメモについての簡単な確認ができます。新規登録時に設定する優先度や、〆切が近くなると現れる警告などを表示させることでやるべき順番なども考えやすいように組みました。
+![一覧](http://imgur.com/a/CfEXA "一覧画像")
 
 ##機能
 一覧・編集・週表・タスク追加を1画面で一括確認・操作できます。
@@ -33,7 +34,7 @@ PHPの練習用に書きました。自分用に作ったTODOリストです。�
 ユーザー名:DB_USERNAME  
 パスワード:DB_PASSWORD  
 
-* 自分で設定したtodoの定義
+* 自分で設定したtodoの定義  
 id int(11) NULLなし AUTO_INCREMENT  
 checkbox varchar(1)	NULLなし  
 taskname varchar(100)	NULLなし  
